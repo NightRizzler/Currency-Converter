@@ -15,7 +15,7 @@ This project is a Python application that provides a terminal-based interface fo
 To install the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/yourusername/currencyconverter.git
+git clone https://github.com/NightRizzler/Currency-Converter
 cd currencyconverter
 pip install -r requirements.txt
 ```
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 Once installed, you can run the application with the following command:
 
-```python
+```
 python app.py
 ```
 
@@ -43,4 +43,4 @@ This project is licensed under the Unlicensed license. For more details, see the
 
 Adam Salih - [@NightRizzler](https://www.github.com/NightRizzler/) 
 
-Project Link: [https://github.com/yourusername/currencyconverter](https://github.com/yourusername/currencyconverter)
+Project Link: [Currency Converter GitHub Repository](https://github.com/NightRizzler/Currency-Converter)

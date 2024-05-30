@@ -7,8 +7,6 @@ ___
 3. **[Architectural Overview](#3-architectural-overview)**
     - 3.1. [Architectural Diagrams](#31-architectural-diagrams)
     - 3.2. [Main Components Overview](#32-main-components-overview)
-    - 3.3. [Modules Folder Structure](#33-modules-folder-structure)
-    - 3.4. [Utilities Folder Contents](#34-utilities-folder-contents)
 4. **[Development Guidelines and Standards](#4-development-guidelines-and-standards)**
 5. **[Testing Framework and Coverage](#5-testing-framework-and-coverage)**
     - 5.1. [Testing Strategy Outline](#51-testing-strategy-outline)
@@ -32,13 +30,13 @@ The application is written in Python and uses the `CurrencyConverter` library fo
 #### 3. Architectural Overview
 - **3.1. Architectural Diagrams**
   - The application is a single Python script with a main function that provides a console interface and a `CurrencyConverterWrapper` class that provides methods for currency conversion.
+
+  ![System Architecture for Currency Converter](../assets/system-architecture-currency-converter.svg)
+  ![class diagram for Currency Converter](../assets/classdiagram-currency-converter.svg)
+
 - **3.2. Main Components Overview**
   - `CurrencyConverterWrapper`: A wrapper class for the `CurrencyConverter` library. It provides methods for converting currencies and checking if a currency is supported.
   - `main`: The main function of the application. It provides a console interface for the user to convert currencies and check if a currency is supported.
-- **3.3. Modules Folder Structure**
-  - The application is a single Python script, so it does not have a modules folder structure.
-- **3.4. Utilities Folder Contents**
-  - The application does not have a utilities folder.
 
 ---
 
@@ -49,7 +47,7 @@ The application follows Python's PEP 8 style guide. It uses docstrings for docum
 
 #### 5. Testing Framework and Coverage
 - **5.1. Testing Strategy Outline**
-  - The application currently does not have a testing framework. Future development should include unit tests for the `CurrencyConverterWrapper` class and the `main` function.
+  - The application currently has a testing framework located in the  `test_app.py ` file
 
 ---
 
